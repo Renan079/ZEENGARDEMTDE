@@ -1,0 +1,311 @@
+body{
+    font-family: "Cormorant Garamond";
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+}
+
+.header__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0 0 0;
+}
+
+.header__title{
+    font-size: 44px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.header__subtitle{
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.header__nav{
+    background-color: blueviolet;
+    width: 100%;
+}
+
+.header__menu{
+    display: flex;
+    padding: 20px 85px;
+    justify-content: space-around;
+}
+
+.menu__link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: solid 2px rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.section--intro{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    padding: 200px 0 0 200px;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a9e3440d-0f91-47a7-82c9-7c72df86c43d/dcl0klm-39676ff2-50da-4739-9426-e27b3b59a293.jpg/v1/fill/w_622,h_350,q_70,strp/harry_potter_and_the_philosopher_s_stone_fanart_01_by_vladislavpantic_dcl0klm-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc3IiwicGF0aCI6IlwvZlwvYTllMzQ0MGQtMGY5MS00N2E3LTgyYzktN2M3MmRmODZjNDNkXC9kY2wwa2xtLTM5Njc2ZmYyLTUwZGEtNDczOS05NDI2LWUyN2IzYjU5YTI5My5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.FycamM_Eho1WMOChGoAlfzk-g7lEof_DxRIxrktJgwo);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+
+.intro__banner{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.intro__title{
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.intro__text{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.intro__button{
+    text-decoration: none;
+    width: 90px;
+    padding: 10px 25px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: blueviolet;
+    font-weight: 600;
+}
+
+.section{
+    width: 100%;
+}
+
+
+.section--about{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4437097d-3140-4f43-b6d1-e8332b08fa3a/d8z952m-857dba02-c2ca-46d9-a243-e896fa6150ce.jpg/v1/fill/w_667,h_350,q_70,strp/ravenclaw_commonroom_by_corned_beeff_d8z952m-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDczIiwicGF0aCI6IlwvZlwvNDQzNzA5N2QtMzE0MC00ZjQzLWI2ZDEtZTgzMzJiMDhmYTNhXC9kOHo5NTJtLTg1N2RiYTAyLWMyY2EtNDZkOS1hMjQzLWU4OTZmYTYxNTBjZS5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.V_eEMgwrtEt4AvbH2Y78bU1523EC3Rpro6gusYQFbho);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 560px;
+}
+
+.section__title{
+    display: flex;
+    justify-content: center;
+    padding: 20px ;
+    background-color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.section__text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 40px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.about__subtitle{
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    color: rgb(137, 43, 226);
+    font-weight: 700; 
+    margin: 30px;
+}
+
+.about__description{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.gallery__grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e03570cc-96c3-41f5-b922-549b69ae6371/d872tgf-e3273556-3905-4611-b937-edc19e15da7d.png/v1/fill/w_1024,h_553,q_80,strp/back_at_hogwarts_by_alea_lefevre_d872tgf-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTUzIiwicGF0aCI6IlwvZlwvZTAzNTcwY2MtOTZjMy00MWY1LWI5MjItNTQ5YjY5YWU2MzcxXC9kODcydGdmLWUzMjczNTU2LTM5MDUtNDYxMS1iOTM3LWVkYzE5ZTE1ZGE3ZC5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.sE-IqQ1B878oSB-Z4hY3hArX5lk2STpx9WKqXXVOdq0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery__item{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.gallery__img{
+    border-radius: 10px;
+}
+
+.gallery__caption{
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.btn-more{
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+}
+
+.services__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: linear-gradient(145deg, #f4e7d3, #e3d3b0);
+    padding: 20px;
+}
+
+.service__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service__title{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    background-color: blueviolet;
+    padding: 10px 25px;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.service__description{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.news__grid{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 30px;
+    flex-wrap: wrap;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f7394b56-17ff-4dec-b1b0-526df965ff6c/d8fhc01-4250c691-9b86-4639-b5ee-14315da21a1f.jpg/v1/fill/w_700,h_350,q_70,strp/hogwarts_by_florentllamas_d8fhc01-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjQwIiwicGF0aCI6IlwvZlwvZjczOTRiNTYtMTdmZi00ZGVjLWIxYjAtNTI2ZGY5NjVmZjZjXC9kOGZoYzAxLTQyNTBjNjkxLTliODYtNDYzOS1iNWVlLTE0MzE1ZGEyMWExZi5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.--ocTm6b0_hS5AcZUbjM8darUdptddYp2gjhIX8cq8k);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.news__item{
+    width: 500px;
+    margin: 20px;
+}
+
+.news__img{
+    border-radius: 8px;
+}
+
+.news__title{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #fff;
+    padding: 10px 0 5px 0;
+}
+
+.news__date{
+    font-size: 22px;
+    color: #fff;
+    padding: 0 0 5px 0;
+}
+
+.news__summary{
+    font-size: 18px;
+    color: #fff;
+    padding: 0 0 5px 0;
+}
+
+.form__group{
+    display: flex;
+    justify-content: right;
+    margin: 30px 300px 0 0;
+}
+
+.contact__form{
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    background-color: rgb(16, 14, 14);
+}
+
+.form__button{
+    align-self: flex-end;
+    margin: 0 300px 10px 0;
+    padding: 10px 80px;
+    border-radius: 8PX;
+    background-color: blueviolet;
+    font-size: 22px;
+    font-weight: 700;
+    border: none;
+    color: #fff;
+}
+
+.form__label{
+    padding: 8px 7px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: blueviolet;
+    margin-right: 5px;
+    height: auto;
+}
+
+.form__input{
+    border-radius: 6px;
+    width:250px;
+}
+
+.footer{
+    background-color: blueviolet;
+}
+
+.footer__text{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.footer__social{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.social__link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}

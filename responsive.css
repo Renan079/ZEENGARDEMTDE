@@ -1,0 +1,342 @@
+/* 2xl */
+@media (max-width: 1536px) {
+    
+}
+
+/* xl */
+@media (max-width: 1280px) {
+
+}
+
+/* lg */
+@media (max-width: 1024px) {
+
+    .header__subtitle{
+        font-size: 16px;
+    }
+
+    .section--intro{
+        height: 250px;
+        padding: 70px 0 0 70px;
+    }
+    
+    .intro__banner{
+        gap: 5px;
+    }
+    
+    .intro__title{
+        font-size: 28px;
+    }
+    
+    .intro__text{
+        font-size: 14px;
+    }
+    
+    .intro__button{
+        width: 70px;
+        padding: 7px 10px;
+        font-size: 14px;
+    }
+    
+    .section--about{
+        height: 400px;
+    }
+    
+    .section__title{
+        padding: 10px ;
+        font-size: 28px;
+        width: 100%;
+    }
+    
+    .section__text{
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+    
+    .about__subtitle{
+        font-size: 18px; 
+        margin: 20px;
+    }
+    
+    .about__description{
+        font-size: 14px;
+    }
+
+    .gallery__img{
+        width: 200px;
+    }
+    
+    .gallery__item{
+        margin: 15px;
+        gap: 7px;
+    }
+    
+    .gallery__caption{
+        font-size: 22px;
+    }
+    
+    .btn-more{
+        padding: 6px 4px;
+        font-size: 12px;
+        width: 150px;
+    }
+    
+    .services__list{
+        gap: 15px;
+        padding: 10px;
+    }
+    
+    .service__title{
+        font-size: 20px;
+        margin-bottom: 5px;;
+    }
+    
+    .service__description{
+        font-size: 18px;
+    }
+    
+    .news__grid{
+        padding: 10px 15px;
+    }
+    
+    .news__item{
+        width: 250px;
+        margin: 10px;
+    }
+    
+    .news__img{
+        width: 280px;
+    }
+    
+    .news__title{
+        font-size: 26px;
+        margin-bottom: 5px;
+    }
+    
+    .news__date{
+        font-size: 20px;
+    }
+    
+    .news__summary{
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+    
+    .form__group{
+        margin: 30px 120px 0 0;
+    }
+
+    
+    .form__button{
+        margin: 0 120px 10px 0;
+        padding: 10px 35px;
+        font-size: 16px;
+    }
+
+    
+    .form__label{
+        font-size: 16px;
+    }
+    
+    .form__input{
+        width:180px;
+    }
+    
+    
+    .footer__text{
+        font-size: 16px;
+    }
+    
+    .footer__social{
+        gap: 30px;
+    }
+    
+    .social__link{
+        font-size: 16px;
+    }
+
+
+}
+/* md */
+@media (max-width: 768px) {
+    
+    .header__container{
+        gap: 5px;
+        padding: 10px 0 0 0;
+    }
+    
+    .header__title{
+        font-size: 30px;
+
+    }
+    
+    .header__subtitle{
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    
+    .header__nav{
+        background-color: blueviolet;
+        width: 100%;
+    }
+    
+    .header__menu{
+        padding: 20px;
+    }
+    
+    .menu__link{
+        padding: 7px 14px;
+
+    }
+    
+    .section--intro{
+        height: 250px;
+        padding: 70px 0 0 70px;
+    }
+    
+    .intro__banner{
+        gap: 5px;
+    }
+    
+    .intro__title{
+        font-size: 28px;
+    }
+    
+    .intro__text{
+        font-size: 14px;
+    }
+    
+    .intro__button{
+        width: 70px;
+        padding: 7px 10px;
+        font-size: 14px;
+    }
+    
+    .section--about{
+        height: 400px;
+    }
+    
+    .section__title{
+        padding: 10px ;
+        font-size: 28px;
+        width: 100%;
+    }
+    
+    .section__text{
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+    
+    .about__subtitle{
+        font-size: 18px; 
+        margin: 20px;
+    }
+    
+    .about__description{
+        font-size: 14px;
+    }
+
+    .gallery__img{
+        width: 200px;
+    }
+    
+    .gallery__item{
+        margin: 15px;
+        gap: 7px;
+    }
+    
+    .gallery__caption{
+        font-size: 22px;
+    }
+    
+    .btn-more{
+        padding: 6px 4px;
+        font-size: 12px;
+        width: 150px;
+    }
+    
+    .services__list{
+        gap: 15px;
+        padding: 10px;
+    }
+    
+    .service__title{
+        font-size: 20px;
+        margin-bottom: 5px;;
+    }
+    
+    .service__description{
+        font-size: 18px;
+    }
+    
+    .news__grid{
+        padding: 10px 15px;
+    }
+    
+    .news__item{
+        width: 250px;
+        margin: 10px;
+    }
+    
+    .news__img{
+        width: 280px;
+    }
+    
+    .news__title{
+        font-size: 26px;
+        margin-bottom: 5px;
+    }
+    
+    .news__date{
+        font-size: 20px;
+    }
+    
+    .news__summary{
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+    
+    .form__group{
+        margin: 30px 120px 0 0;
+    }
+
+    
+    .form__button{
+        margin: 0 120px 10px 0;
+        padding: 10px 35px;
+        font-size: 16px;
+    }
+
+    
+    .form__label{
+        font-size: 16px;
+    }
+    
+    .form__input{
+        width:180px;
+    }
+    
+    
+    .footer__text{
+        font-size: 16px;
+    }
+    
+    .footer__social{
+        gap: 30px;
+    }
+    
+    .social__link{
+        font-size: 16px;
+    }
+
+}
+   
+/* sm */
+@media (max-width: 640px) {
+    
+}
+
+/* xs */
+@media (max-width: 475px) {
+    
+}
